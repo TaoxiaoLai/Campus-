@@ -1,0 +1,25 @@
+<view class='main'>
+  <view class='title'>
+    <text class='title-t1'>高校夸夸群集结号</text>
+    <text class='title-t2'>互相鼓励 · 商业互吹 · 真诚赞美</text>
+  </view>
+
+  <view class='container1' bindtap='toKuaKua'>
+    <image class='img' src='/images/榜单.png'></image>
+    <view>
+      <text class='banner-t1'>查看夸夸榜</text>
+      <text class='banner-t2'>看看大家都在烦什么~</text>
+    </view>
+    <image class='img-btn1' src='/images/btn1.png'></image>
+  </view>
+
+   <view class='container2' bindtap='toupkuakua'>
+    <image class='img' src='/images/发布.png'></image>
+    <view>
+      <text class='banner-t1'>发布我的夸夸</text>
+      <text class='banner-t2'>心烦去求夸，商业互吹来一波</text>
+    </view>
+    <image class='img-btn2' src='/images/btn1.png'></image>
+  </view>
+
+</view>

@@ -1,0 +1,13 @@
+<form bindsubmit="formSubmit">
+  <!-- 给form添加bindsubmit属性，值为formSubmit，即表单提交后触发formSubmit函数，formSubmit函数写在index.js里。-->
+
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell">
+      <view class="weui-cell__bd">
+        <textarea class="weui-textarea" placeholder="请输入文本" name="input-content" />
+      </view>
+    </view>
+  </view>
+  <button class='button' formType="submit" open-type='getUserInfo'>求夸！！</button>
+  <!-- 给button组件添加formType属性，值为submit，表示该按钮为提交表单的按钮，点击则提交表单，form表单组件内部所有带name属性的组件的值都会被传递给formSubmit函数。-->
+</form>

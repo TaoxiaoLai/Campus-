@@ -1,0 +1,85 @@
+.container {
+  width: 750rpx;
+  margin-bottom: 20rpx;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: #fff;
+  width: 700rpx;
+  padding: 25rpx;
+}
+
+.per-message {
+  height: 80rpx;
+}
+
+.per-message image {
+  float: left;
+  width: 80rpx;
+  height: 80rpx;
+}
+
+.per-message text {
+  float: left;
+  margin-left: 25rpx;
+  font-size: 30rpx;
+  color: #9cf;
+}
+
+.content-detail {
+  width: 700rpx;
+  margin-top: 20rpx;
+}
+
+.content-detail text {
+  font-size: 30rpx;
+  line-height: 0; /*如何设置的更小？*/
+}
+
+.time {
+  font-size: 28rpx;
+  color: #bcbcbc;
+  float: right;
+}
+
+.qiukua-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 700rpx;
+  padding: 25rpx;
+}
+
+.qiukua-btn-down {
+  width: 750rpx;
+  height: 50rpx;
+  background-color: #fff;
+  /*display: none;*/
+}
+
+.qiukua-btn-up {
+  width: 750rpx;
+  height: 50rpx;
+  background-color: #fff;
+}
+
+.btn-img {
+  float: right;
+  padding: 10rpx 25rpx 0 10rpx;
+  width: 30rpx;
+  height: 30rpx;
+}
+
+.qiukua-text {
+  float: right;
+  height: 50rpx;
+  line-height: 50rpx;
+  color: #bcbcbc;
+  font-size: 28rpx;
+}

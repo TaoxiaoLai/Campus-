@@ -1,0 +1,43 @@
+
+page {
+
+  display: block;
+
+  min-height: 100%;
+
+  background-color:#F0F0F0;
+}
+
+.form{
+
+width:750rpx;  /* class为form的组件宽度为750rpx，即屏幕宽度*/
+
+height:1000rpx; /*高度为1000rpx*/
+
+display:flex;  /*组件的子组件采用flex布局排列*/
+
+flex-direction:column;  /*flex布局排列的主方向为纵向，子组件从上到下排列*/
+
+justify-content:space-around;  /*子组件在主方向上采用space-around方式排列，每个子组件在主方向上的两侧有相等的间隔。*/
+
+align-items:center /*子组件在副方向（这里为横向）上居中排列*/
+
+}
+
+.weui-cell__bd{ 
+  margin-top: 30px;
+  height: 200px;
+  width: 100%;
+  background-color: white
+}
+.button{
+  width: 150px;
+margin-top: 50px;
+color: white;
+background-color: #CC33FF;
+}
+.weui-textarea{
+  display: block;
+  width: 99%;
+  height: 200px;
+}

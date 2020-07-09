@@ -1,0 +1,53 @@
+/* pages/personal/personal.wxss */
+.main{
+  height: 100vh;
+}
+.perMessage{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.headImage{
+  width: 130rpx;
+  height: 130rpx;
+  margin-top: 150rpx;
+}
+.userName{
+  margin-top: 30rpx;
+  font-size: 35rpx;
+  color: rgb(150, 148, 148);
+}
+.container1 {
+  width: 800rpx;
+  height: 130rpx;
+  background-color: #fff;
+  margin: 150rpx 0rpx 0 0rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.container2 {
+  width: 800rpx;
+  height: 130rpx;
+  background-color: #fff;
+  margin: 30rpx 0rpx 0 0rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.img-btn1 {
+  width: 50rpx;
+  height: 50rpx;
+  padding-left: 520rpx;
+}
+.img-btn2 {
+  width: 50rpx;
+  height: 50rpx;
+  padding-left: 520rpx;
+}
+.banner {
+  font-size: 30rpx;
+  line-height: 130rpx;
+  margin-left: 7px;
+}
+

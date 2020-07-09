@@ -1,0 +1,65 @@
+.container {
+  width: 750rpx;
+  /*height: 250rpx;*/
+  background-color: #fff;
+  margin-bottom: 20rpx;
+  overflow: hidden;
+}
+.content{
+  display: flex;
+  flex-direction: column;
+
+}
+.per-message{
+
+  height: 100rpx;
+}
+.per-message image{
+  float: left;
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+.per-message text{
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #99ccff;
+}
+.content-detail{
+  width: 710rpx;
+  /*height: 90rpx;*/
+  margin-top: 10rpx;
+  margin-left: 20rpx;
+  margin-bottom: 20rpx;
+  margin-right: 20rpx;
+  /*overflow: hidden;*/
+}
+.content-detail text{
+  font-size: 30rpx;
+  /*line-height: 80rpx;*/
+}
+.btn {
+  float: right;
+  padding-top: 75rpx;
+  padding-right: 10rpx;
+}
+.btn image{
+  width: 50rpx;
+  height: 50rpx;
+}
+.reply text{
+  font-size: 26rpx;
+  color: #bcbcbc;
+  float: right;
+  margin-right:20rpx;
+  margin-bottom: 20rpx;
+}
+.time {
+  font-size: 26rpx;
+  color: #bcbcbc;
+  float: right;
+  margin: 20rpx;
+}

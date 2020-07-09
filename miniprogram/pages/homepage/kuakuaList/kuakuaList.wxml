@@ -1,0 +1,18 @@
+<view class='main'>
+  <block wx:for="{{dataLists}}"> 
+    <view class='container' bindtap='toKuaKuaDetail' data-id='{{item._id}}'> 
+      <view class='content'>
+        <view class='per-message'>
+          <image src='{{item.user.avatarUrl}}'></image>  
+          <text>{{item.user.nickName}}</text>  
+        </view>
+        <view class='content-detail'>
+          <text>{{item.content}}</text>   
+        </view>
+      </view>
+      <view class='btn'>
+        <image src='/images/btn1.png'></image>  
+      </view>
+    </view>
+  </block>
+</view>

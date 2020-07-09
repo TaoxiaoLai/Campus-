@@ -1,0 +1,34 @@
+{
+  "pages": [
+    "pages/homepage/homepage",
+    "pages/personal/personal",
+    "pages/homepage/kuakuaList/kuakuaList",
+    "pages/homepage/upkuakua/upkuakua",
+    "pages/homepage/kuakuaList/kuakuaDetail/kuakuaDetail",
+    "pages/personal/mywonderkua/mywonderkua",
+    "pages/personal/mykuakua/mykuakua",
+    "pages/personal/mywonderkua/mywonderkuaDetail/mywonderkuaDetail"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#cc33ff"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/homepage/homepage",
+        "iconPath": "images/首页.png",
+        "selectedIconPath": "images/首页选中.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/personal/personal",
+        "iconPath": "images/我的.png",
+        "selectedIconPath": "images/我的选中.png"
+      }
+    ],
+    "color": "#000",
+    "selectedColor": "#cc33ff"
+  },
+  "sitemapLocation": "sitemap.json"
+}

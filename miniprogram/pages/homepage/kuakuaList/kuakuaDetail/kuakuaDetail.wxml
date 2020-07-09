@@ -1,0 +1,37 @@
+<view class="main">
+
+  <view class='content'>
+    <view class='per-message2'>
+      <image src='{{detailData[0].user.avatarUrl}}'></image>
+      <text class='name'>{{detailData[0].user.nickName}}</text>
+      <text class='time'>{{month+'/'}}{{day+' '}}{{hours+':'}}{{minutes}}</text>
+    </view>
+    <view class='content-detail'>
+      <text>{{detailData[0].content}}</text>
+    </view>
+  </view>
+
+  <view class='statics'>
+    <text>{{commentListLength}}条夸夸</text>
+  </view>
+  <view class='clearfloat'></view>
+
+  <block wx:for="{{commentLists}}">
+    <view class='comment'>
+      <view class='per-message2'>
+        <image src='{{item.user.avatarUrl}}'></image>
+        <text class='name'>{{item.user.nickName}}</text>
+        <text class='time'>{{item.month+'/'}}{{item.day+' '}}{{item.hours+':'}}{{item.minutes}}</text>
+      </view>
+      <view class='comment-detail'>
+        <text>{{item.content}}</text>
+      </view>
+    </view>
+  </block>
+</view>
+<form bindsubmit="formSubmit">
+  <view class='add_btn'>
+    <input class='input' name="input-content" value='{{input}}'></input>
+    <button form-type="submit" class='btn' open-type='getUserInfo' bindtap='countKuaKua'>夸他</button>
+  </view>
+</form>

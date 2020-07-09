@@ -1,0 +1,111 @@
+.main{
+  padding-bottom: 80rpx;
+}
+.content {
+  width: 750rpx;
+  background-color: #fff;
+}
+
+.content-detail {
+  font-size: 30rpx;
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  overflow: hidden;
+} 
+
+.content-detail text {
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.comment {
+  width: 750rpx;
+  background-color: #fff;
+}
+
+.per-message2 {
+  width: 100%;
+  height: 100rpx;
+}
+
+.per-message2 image {
+  float: left;
+  width: 80rpx;
+  height: 80rpx;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+}
+
+.name {
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+  font-size: 30rpx;
+  color: #9cf;
+}
+
+.time {
+  float: right;
+  margin-top: 20rpx;
+  margin-right: 30rpx;
+  font-size: 28rpx;
+  color: gray;
+}
+
+.comment-detail {
+  font-size: 30rpx;
+  margin: 20rpx 20rpx 20rpx 20rpx;
+  overflow: hidden;
+}
+
+.comment-detail text {
+  display: block;
+  margin-bottom: 20rpx;
+}
+
+.statics {
+  height: 50rpx;
+  float: right;
+  margin-right: 30rpx;
+  margin-bottom: 20rpx;
+}
+
+.statics text {
+  font-size: 30rpx;
+  line-height: 50rpx;
+  color: gray;
+}
+
+.clearfloat {
+  clear: both;
+}
+
+.add_btn {
+  width: 100%;
+  height: 100rpx;
+  position: fixed;
+  bottom: 0rpx;
+  background-color: #f2f2f2;
+}
+
+.input {
+  float: left;
+  border: 1px solid #000;
+  border-radius: 10rpx;
+  width: 570rpx;
+  height: 70rpx;
+  margin-top: 15rpx;
+  margin-left: 15rpx;
+}
+
+.btn {
+  float: right;
+  width: 130rpx;
+  height: 70rpx;
+  background: #14a1fd;
+  border-radius: 10rpx;
+  margin-top: 15rpx;
+  margin-right: 18rpx;
+  color: #fff;
+  text-align: center;
+  line-height: 70rpx; 
+}

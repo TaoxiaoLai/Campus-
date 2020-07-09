@@ -1,0 +1,34 @@
+<view class='main'>
+  <block wx:for="{{detailData}}">
+    <view class='container'>
+      <view class='content'>
+        <view class='per-message'>
+          <image src='{{item.user.avatarUrl}}'></image>
+          <text>{{item.user.nickName}}</text>
+          <view class='time'>{{item.month+'/'}}{{item.day+' '}}{{item.hours+':'}}{{item.minutes}}</view>
+        </view>
+        <view class='content-detail'>
+          <text>{{item.content}}</text>
+        </view>
+      </view>
+      <view class='qiukua-btn-down' bindtap='showQiuKua' wx:if='{{item.showBtn}}' data-id='{{item._id}}'>
+          <image class='btn-img' src='/images/btn下.png'></image>
+          <text class='qiukua-text'>求夸内容</text>
+      </view>
+      <view class='qiukua-content' wx:if='{{item.showContent}}'>
+        <view class='per-message'>
+          <image src='{{item.qiukuaUser.avatarUrl}}'></image>
+          <text>{{item.qiukuaUser.nickName}}</text>
+          <view class='time'>{{item.qiukuaMonth+'/'}}{{item.qiukuaDay+' '}}{{item.qiukuaHours+':'}}{{item.qiukuaMinutes}}</view>
+        </view>
+        <view class='content-detail'>
+          <text>{{item.qiukuaContent}}</text>
+        </view>
+      </view>
+      <view class='qiukua-btn-up' bindtap='hideQiuKua' wx:if='{{item.showContent}}' data-id='{{item._id}}'>
+          <image class='btn-img' src='/images/btn上.png'></image>
+          <text class='qiukua-text'>求夸内容</text>
+      </view>
+    </view>
+  </block>
+</view>

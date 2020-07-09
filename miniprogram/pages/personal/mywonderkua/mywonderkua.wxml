@@ -1,0 +1,19 @@
+<view class='main'>
+  <block wx:for="{{detailData}}">
+    <view class='container'>
+      <view class='content'  bindtap='tomywonderkuaDetail' data-id='{{item._id}}'>
+        <view class='per-message'>
+          <image src='{{item.user.avatarUrl}}'></image>
+          <text>{{item.user.nickName}}</text>
+          <view class='time'>{{item.month+'/'}}{{item.day+' '}}{{item.hours+':'}}{{item.minutes}}</view>
+        </view>
+        <view class='content-detail'>
+          <text>{{item.content}}</text>
+        </view>
+        <!--<view class='reply'>
+          <text>{{item.commentListLength}}条夸夸</text>
+        </view>-->
+      </view>  
+    </view>
+  </block>
+</view>

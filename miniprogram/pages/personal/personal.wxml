@@ -1,0 +1,22 @@
+<view class='main'>
+  <view class='perMessage'>
+    <view class='headImage'>
+      <open-data type="userAvatarUrl"></open-data>
+    </view>
+    <view class='userName'>
+      <open-data type="userNickName" lang="zh_CN"></open-data>
+    </view>
+  </view>
+  <view class='container1' bindtap='tomywonderkua' data-openid='{{openid}}'>
+    <view>
+      <text class='banner'>我的求夸</text>
+      <image class='img-btn1' src='/images/btn1.png'></image>
+    </view>
+  </view>
+  <view class='container2' bindtap="tomykuakua" data-openid='{{openid}}'>
+    <view>
+      <text class='banner'>我的夸夸</text>
+      <image class='img-btn1' src='/images/btn1.png'></image>
+    </view>
+  </view>
+</view>

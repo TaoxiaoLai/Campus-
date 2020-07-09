@@ -1,0 +1,82 @@
+.main{
+  height: 100vh;
+}
+.title {
+  width: 750rpx;
+  height: 300rpx;
+  background: #c3f;
+  color: #fff;
+  font-weight: bold;
+}
+
+.title-t1 {
+  display: block;
+  font-size: 50rpx;
+  padding-top: 50rpx;
+  padding-left: 30rpx;
+}
+
+.title-t2 {
+  display: block;
+  font-size: 35rpx;
+  padding-top: 30rpx;
+  padding-left: 30rpx;
+}
+
+.container1 {
+  width: 700rpx;
+  height: 200rpx;
+  background-color: #fff;
+  margin: -30rpx 25rpx 0 25rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.img {
+  width: 120rpx;
+  height: 100rpx;
+  display: block;
+  padding: 0 20rpx;
+}
+
+.img-btn1 {
+  width: 50rpx;
+  height: 50rpx;
+  padding-left: 195rpx;
+}
+
+.img-btn2 {
+  width: 50rpx;
+  height: 50rpx;
+  padding-left: 100rpx;
+}
+
+.container2 {
+  width: 700rpx;
+  height: 200rpx;
+  background-color: #fff;
+  margin: 50rpx 25rpx 0 25rpx;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.banner-t1 {
+  display: block;
+  font-size: 40rpx;
+  padding-bottom: 25rpx;
+}
+
+.banner-t2 {
+  display: block;
+  font-size: 28rpx;
+  color: #999;
+}
+
+.input{
+  width: 700rpx;
+  height: 100rpx;
+  margin-top: 50rpx;
+  background-color: #fff;
+}
