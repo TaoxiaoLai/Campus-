@@ -18,19 +18,19 @@
 
 ### 项目截图
 #### * 主页
-![avatar](/miniprogram/images/homepage.jpg)
+![2](miniprogram/images/homepage.png)
 
 #### * 夸夸榜
-![avatar](/miniprogram/images/kuakualist.jpg)
+![2](/miniprogram/images/kuakualist.png)
 
 #### * 求夸及回复详情页
-![avatar](/miniprogram/images/detail.jpg)
+![2](/miniprogram/images/detail.png)
 
 #### * 个人管理页面
-![avatar](/miniprogram/images/personal.jpg)
+![2](/miniprogram/images/personal.png)
 
 #### * 我的夸夸页面
-![avatar](/miniprogram/images/mykuakua.jpg)
+![2](/miniprogram/images/mykuakua.png)
 
 
 ### 开发工具：微信web开发者工具 v1.02 1904090
